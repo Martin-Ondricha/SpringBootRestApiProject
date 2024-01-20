@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-To run this project locally, make sure you have Java(SpringBoot), Maven, and PostgreSQL installed.
+To run this project locally, make sure you have Java(SpringBoot) with your preferred IDE for Java development, Maven, and PostgreSQL installed.
 ###  Recommended dependencies
  Ensure the following dependencies are included in your project:
  - Lombok
