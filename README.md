@@ -25,12 +25,6 @@ To run this project locally, make sure you have Java(SpringBoot) with your prefe
 
 ### Configuration
 
-When configuring `spring.jpa.hibernate.ddl-auto`, you can use one of the following options:
-
-- `'create'`: Create new tables, dropping existing tables if necessary.
-- `'update'`: Update the existing schema, retaining data.
-- `'create-drop'`: Create and then drop the tables at the end of the session.
-
 Adjust the following properties in your `application.properties` file according to your preferences:
 
 ```properties
@@ -42,6 +36,11 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 ```
+When configuring `spring.jpa.hibernate.ddl-auto`, you can use one of the following options:
+
+- `'create'`: Create new tables, dropping existing tables if necessary.
+- `'update'`: Update the existing schema, retaining data.
+- `'create-drop'`: Create and then drop the tables at the end of the session.
 
 ## How the API works :
 
