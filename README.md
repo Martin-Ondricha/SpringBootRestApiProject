@@ -60,6 +60,8 @@ Here's a brief overview of user properties and important constraints:
 
 Additionally, note the following constraints:
 
+-You cannot have two users with the same email or ID. Otherwise, you will receive an error report.
+
 - Users cannot have null fields; all properties are required.
 
 - Age must be between 0 and 130.
