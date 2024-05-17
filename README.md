@@ -7,9 +7,10 @@
 - Spring Boot
 - PostgreSQL
 - Maven
-- Postman
+- Postman(for testing)
 - REST API
-- Hibernate
+- JPA
+- Hibernate(JPA provider)
 
 ## Getting Started
 
